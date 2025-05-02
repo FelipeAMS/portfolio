@@ -1,0 +1,68 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #232730;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.experienceContainerTitle {
+    font-size: 25px;
+    font-weight: 600;
+    color: #adadad;
+    margin-bottom: 20px;
+}
+
+.experienceItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #171a21;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+.experienceImage {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.experienceTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.experienceCompany {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.experienceDate {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+

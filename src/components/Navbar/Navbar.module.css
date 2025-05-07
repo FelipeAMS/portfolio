@@ -1,19 +1,19 @@
-ul {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;    
     list-style: none;
 }
 
-li {
+.navbarItem {
     margin-right: 20px;
 }
 
-a {
+.navbarLink {
     text-decoration: none;
     color: #adadad;
     transition: all 0.2s ease;
 }
-a:hover {
+.navbarLink:hover {
     text-decoration:line-through;
 }

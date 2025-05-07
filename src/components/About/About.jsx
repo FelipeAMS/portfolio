@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import profileImage from '../../assets/images/profile.jpg'
+import profileImage from '../../assets/images/profile.png'
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
                     <p className={styles.aboutTitle}>Fullstack Developer</p>
                 </div>
                 <div className={styles.aboutMe}>
-                    <h2>Sobre mí</h2>
+                    <h2 className={styles.aboutMeTitle}>Sobre mí</h2>
                     <p className={styles.aboutDescription}>
                     Soy una persona amable, empática y respetuosa, siempre dispuesto a ayudar a los demás. 
                     Me apasiona aprender constantemente y asumir nuevos retos, especialmente en el mundo 

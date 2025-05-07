@@ -24,6 +24,18 @@ h2 {
     font-weight: 600;
     color: #adadad;
     text-align: center;
+    cursor: default;
+}
+.aboutTitle:hover {
+    color: #fff;
+}
+.aboutMeTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #adadad;
+}
+.aboutMeTitle:hover {
+    color: #fff;
 }
 
 .aboutDescription {
@@ -31,7 +43,8 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
     color: #adadad;
-    text-align: justify;
+    text-align: left;
+    letter-spacing: 0.1px;
 }
 
 .about img {

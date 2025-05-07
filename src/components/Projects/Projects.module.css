@@ -12,7 +12,12 @@
     justify-content: center;
     background-color: #292e37;
     padding: 20px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    scroll-margin-top: 100px;
+}
+.projectsContainer:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .projectsContainerTitle {
@@ -22,16 +27,32 @@
     margin-bottom: 20px;
 }
 
+.projectsContainerTitle:hover {
+    color: #fff;
+}
+
 .projectItem {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #171a21;
+    border: 2px solid #232730;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin: 10px;
     width: 300px;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+.projectItem:hover {
+    border: 2px solid #232730;
+    transform: scale(1.05);
+}
+
+.projectImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .projectTitle {
@@ -46,6 +67,7 @@
     font-weight: 400;
     color: #fff;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .projectLinks {

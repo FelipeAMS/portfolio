@@ -5,13 +5,20 @@
     justify-content: center;
     background-color: #232730;
     padding: 20px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+.contactContainer:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 .contactTitle {
     font-size: 25px;
     font-weight: 600;
     color: #adadad;
     margin-bottom: 20px;
+}
+.contactTitle:hover {
+    color: #fff;
 }
 .contactForm {
     display: flex;
@@ -28,6 +35,12 @@
     border: 0.5px solid #292e37;
     color: #adadad;
     font-size: 16px;
+    transition: all 0.3s ease;
+}
+.contactForm input:focus {
+    background-color: #292e37;
+    border: 0.5px solid #292e37;
+    outline: none;
 }
 .contactForm textarea {
     width: 100%;
@@ -36,9 +49,16 @@
     border: 0.5px solid #292e37;
     color: #adadad;
     font-size: 16px;
+    transition: all 0.3s ease;
+    resize: none;
 }
+.contactForm textarea:focus {
+    background-color: #292e37;
+    border: 0.5px solid #292e37;
+    outline: none;
+}   
 .contactForm button {
-    width: 40%;
+    width: 30%;
     padding: 10px;
     background-color: #171a21;
     border: 0.5px solid #292e37;
@@ -48,8 +68,8 @@
     transition: all 0.3s ease;
 }
 .contactForm button:hover {
-    background-color: #adadad;
-    color: #171a21;
+    background-color: #292e37;
+    color: #fff;
 }
 
 

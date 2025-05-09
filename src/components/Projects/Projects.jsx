@@ -2,6 +2,7 @@ import styles from './Projects.module.css'
 import { FaGithub } from 'react-icons/fa'
 import { FaEye } from 'react-icons/fa'
 import rickAndMorty from '../../assets/images/rick-and-morty.png'
+import weatherApp from '../../assets/images/weather.png'
 
 const Projects = () => {
     return (
@@ -12,7 +13,7 @@ const Projects = () => {
                     <li className={styles.projectItem}>
                         <img src={rickAndMorty} alt="Rick and Morty" className={styles.projectImage} />
                         <p className={styles.projectTitle}>Rick and Morty</p>
-                        <p className={styles.projectDescription}>Un proyecto donde puedes conocer varios personajes 
+                        <p className={styles.projectDescription}>Un proyecto donde puedes conocer varios personajes
                             de la serie Rick and Morty</p>
                         <div className={styles.projectLinks}>
                             <a href="https://github.com/FelipeAMS/rick-and-morty" className={styles.projectLink} target="_blank" rel="noopener noreferrer">
@@ -25,8 +26,23 @@ const Projects = () => {
                             </a>
                         </div>
                     </li>
+                    <li className={styles.projectItem}>
+                        <img src={weatherApp} alt="Weather App" className={styles.projectImage} />
+                        <p className={styles.projectTitle}>Weather App</p>
+                        <p className={styles.projectDescription}>Un proyecto donde puedes conocer el clima de una ciudad</p>
+                        <div className={styles.projectLinks}>
+                            <a href="https://github.com/FelipeAMS/weather-app" className={styles.projectLink} target="_blank" rel="noopener noreferrer">
+                                <FaGithub className={styles.icon} />
+                                GitHub
+                            </a>
+                            <a href="https://felipeams.github.io/weather-app/" className={styles.projectLink} target="_blank" rel="noopener noreferrer">
+                                <FaEye className={styles.icon} />
+                                Ver proyecto
+                            </a>
+                        </div>
+                    </li>
                 </ul>
-            </section>
+            </section >
         </>
     )
 }
